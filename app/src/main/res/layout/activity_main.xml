@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFF0F5">
+
+    <!-- Titre -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌸 GPS Tracker"
+        android:textSize="26sp"
+        android:textColor="#C2185B"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F48FB1"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Carte coordonnées -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📍 Coordonnées GPS"
+            android:textSize="14sp"
+            android:textColor="#AD1457"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latitude : en attente…"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:paddingVertical="6dp"/>
+
+        <TextView
+            android:id="@+id/tvLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitude : en attente…"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:paddingVertical="6dp"/>
+
+        <TextView
+            android:id="@+id/tvStatut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statut : démarrage…"
+            android:textSize="13sp"
+            android:textColor="#E91E63"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+    <!-- Bouton carte -->
+    <Button
+        android:id="@+id/btnAfficherCarte"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="🗺️  Afficher la carte"
+        android:textSize="15sp"
+        android:backgroundTint="#E91E63"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

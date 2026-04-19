@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GPS Tracker 🌸</string>
+
+    <!-- Messages du provider GPS -->
+    <string name="provider_actif">Le fournisseur %s est maintenant actif</string>
+    <string name="provider_inactif">Le fournisseur %s est maintenant inactif</string>
+    <string name="provider_nouveau_statut">Le fournisseur %1$s a changé de statut : %2$s</string>
+
+    <!-- Message de nouvelle position -->
+    <string name="nouvelle_position">
+        📍 Lat=%1$s | Lon=%2$s | Alt=%3$s m | Précision=%4$s m
+    </string>
+
+    <!-- Divers -->
+    <string name="permission_refusee">Permission de localisation refusée</string>
+    <string name="envoi_reussi">Position envoyée au serveur ✓</string>
+    <string name="erreur_reseau">Erreur réseau : %s</string>
+</resources>
